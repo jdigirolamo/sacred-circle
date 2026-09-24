@@ -3,130 +3,120 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shadow &amp; Light Reiki — Sacred Circle · Calgary</title>
-<meta name="description" content="Trauma-informed Reiki, creative release, and grounding work in Calgary. Private sessions and small group circles with Felicia DiGirolamo. In-person and virtual.">
+<title>Sacred Circle — Calgary home for healing, kids &amp; self-discovery</title>
+<meta name="description" content="Sacred Circle is a Calgary umbrella for Shadow &amp; Light Reiki, Rainbow Roots daycare, and Astrology Discovery — separate offerings under one warm home.">
 <meta name="theme-color" content="#ede2d0">
-<link rel="icon" href="../assets/logo-sacred-circle-nav.jpeg" type="image/jpeg">
+<link rel="icon" href="assets/logo-sacred-circle-nav.jpeg" type="image/jpeg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="assets/site.css">
 <style>
+.hub-hero{
+  padding:clamp(2.4rem,6.5vw,3.8rem) 0 clamp(2.2rem,5vw,3rem);
+  text-align:center;
+}
+.hub-logo{
+  margin:0 auto 1.35rem;
+  line-height:0;
+  width:min(300px,70vw);
+}
+.hub-logo img{
+  width:100%;height:auto;border-radius:50%;
+  box-shadow:0 10px 32px rgba(61,52,41,.14);
+}
+.hub-name{
+  font-family:var(--display);
+  font-size:clamp(.72rem,1.8vw,.84rem);
+  letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gold-deep);margin:0 0 .9rem;font-weight:500;
+}
+.hub-line{
+  font-family:var(--serif);font-style:italic;
+  font-size:clamp(1.5rem,4vw,2.2rem);
+  max-width:24ch;margin:0 auto .95rem;line-height:1.25;font-weight:500;
+}
+.hub-intro{
+  max-width:40rem;margin:0 auto 1.45rem;
+  color:var(--muted);font-size:1.02rem;line-height:1.7;
+}
+.hub-actions{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin-top:1.15rem}
 
-.sec-head .promise{font-style:italic;font-size:clamp(1.55rem,3.4vw,2.15rem);max-width:18ch;margin:0 auto .35rem}
-.sec-head .subhead{font-family:var(--serif);font-weight:500;font-size:clamp(1.15rem,2.4vw,1.45rem);margin:.35rem auto .65rem;color:var(--ink)}
-.hero{position:relative;text-align:left;padding:clamp(1.4rem,4vw,2.4rem) 0 clamp(1.6rem,4vw,2.2rem);min-height:0;overflow:hidden;background:var(--parchment)}
-.hero-stage{width:var(--shell);margin:0 auto;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(1.2rem,4vw,2.4rem);align-items:center}
-.hero-logo{margin:0;line-height:0}
-.hero-logo img{width:min(440px,100%);height:auto;display:block;margin-inline:auto}
-.hero-copy{position:relative;z-index:1;padding:0;display:flex;flex-direction:column;align-items:flex-start;gap:.85rem}
-.hero-actions{display:flex;flex-direction:column;gap:.65rem;align-items:stretch;width:100%;max-width:20rem;margin:0}
-.hero-actions .btn{width:100%;justify-content:center}
-.book-actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.15rem}
-.book-alt{margin:.85rem 0 0;font-size:.88rem;color:var(--muted);line-height:1.55}
-.book-alt a{color:var(--gold-deep);text-underline-offset:2px}
-.hero-meta{margin:0;font-family:var(--display);font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-deep)}
-.hero-soft{margin:0;font-size:.9rem}
-.hero-soft a{color:var(--gold-deep);font-weight:500}
-.first{background:linear-gradient(180deg,var(--parchment) 0%,var(--parchment-2) 40%,var(--parchment-2) 70%,var(--parchment) 100%)}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;list-style:none;padding:0;margin:0;counter-reset:step}
-.step{padding:1.1rem 1rem 1.15rem;background:var(--cream);border:1px solid var(--line);border-radius:2px;box-shadow:none}
-.step::before{counter-increment:step;content:counter(step,decimal-leading-zero);font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--gold-mid);display:block;margin-bottom:.25rem}
-.step h3{margin-bottom:.35rem;font-size:1.1rem}
-.step p{color:var(--muted);font-size:.9rem;line-height:1.55}
-.about{background:var(--parchment)}
-.about-grid{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:clamp(1.4rem,4vw,2.4rem);align-items:center}
-.portrait{position:relative;margin:4px;border:1px solid var(--gold-mid);outline:1px solid var(--gold-mid);outline-offset:4px;background:var(--parchment-2);line-height:0;overflow:hidden}
-.portrait-img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 18%;display:block}
-.about p{max-width:48ch;color:var(--ink);font-size:.95rem}
-.about .lede-about{font-family:var(--serif);font-style:italic;font-size:1.2rem;line-height:1.4;color:var(--ink);margin-bottom:.85rem}
-.meta-list{margin:1rem 0 1.2rem;padding:0;list-style:none;font-size:.88rem;color:var(--muted)}
-.meta-list li{padding:.4rem 0;border-top:1px solid var(--line-soft)}
-.meta-list li:last-child{border-bottom:1px solid var(--line-soft)}
-.meta-list strong{display:block;font-family:var(--display);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-deep);font-weight:500;margin-bottom:.15rem}
-.meta-list em{font-style:italic;color:var(--olive)}
-.services{background:linear-gradient(180deg,var(--parchment) 0%,var(--parchment-2) 35%,var(--parchment-2) 100%)}
-.svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
-.svc{position:relative;background:var(--cream);border:1px solid var(--line);padding:1.25rem 1.2rem 1.3rem;border-radius:2px}
-.svc--start{border-color:var(--gold-mid);background:linear-gradient(165deg,var(--cream-hi),var(--cream));box-shadow:var(--shadow)}
-.svc-badge{position:absolute;top:-.55rem;left:1rem;background:var(--gold-deep);color:var(--cream-hi);font-family:var(--display);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;padding:.28rem .65rem;border-radius:2px;font-weight:500;border:1px solid var(--gold-mid)}
-.svc h3{margin:.15rem 0 .4rem}
-.svc p{color:var(--muted);font-size:.9rem;line-height:1.55}
-.also{text-align:center;margin:1.15rem 0 0;font-size:.86rem;color:var(--muted)}
-.also span{color:var(--gold-deep)}
-.joy{background:radial-gradient(ellipse 50% 80% at 15% 50%,rgba(201,162,75,.18),transparent 60%),radial-gradient(ellipse 40% 70% at 90% 40%,rgba(232,196,176,.1),transparent 55%),linear-gradient(180deg,var(--charcoal-warm),var(--charcoal));color:var(--parchment);padding:clamp(1.7rem,4vw,2.25rem) 0}
-.joy .eyebrow{color:var(--gold)}
-.joy h2{color:var(--cream-hi);font-style:italic}
-.joy-in{display:flex;align-items:center;justify-content:space-between;gap:1.4rem}
-.joy-copy{max-width:44rem}
-.joy p{color:#D4C4B0;font-size:.94rem;margin:.4rem 0 0}
-.pricing{background:var(--parchment)}
-.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
-.price{background:var(--cream);border:1px solid var(--line);padding:1.4rem 1.1rem 1.3rem;text-align:center;border-radius:2px;position:relative}
-.price--featured{border:1px solid var(--gold-mid);outline:1px solid rgba(154,116,40,.35);outline-offset:3px;background:linear-gradient(180deg,var(--cream-hi),var(--cream));box-shadow:var(--shadow)}
-.price-tag{position:absolute;top:-.55rem;left:50%;transform:translateX(-50%);background:var(--gold-deep);color:var(--cream-hi);font-family:var(--display);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;padding:.28rem .7rem;border-radius:2px;white-space:nowrap;border:1px solid var(--gold-mid)}
-.price h3{font-size:1.12rem}
-.price-amt{font-family:var(--serif);font-size:2.05rem;margin:.25rem 0 .2rem;color:var(--ink);line-height:1}
-.price-amt span{font-size:.85rem;color:var(--muted)}
-.price p{color:var(--muted);font-size:.86rem;margin:0 0 1rem}
-.price-map{font-family:var(--display);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-deep);margin:0 0 .35rem}
-.price-note{text-align:center;color:var(--muted);font-size:.86rem;margin:1.15rem auto 0;max-width:46ch}
-.faq{background:linear-gradient(180deg,var(--parchment) 0%,var(--parchment-2) 50%,var(--parchment) 100%)}
-.faq-wrap{max-width:40rem;margin-inline:auto;display:flex;flex-direction:column;gap:.55rem}
-.faq-item{background:var(--cream);border:1px solid var(--line);border-radius:2px;padding:0 .95rem}
-.faq-item:focus-within{border-color:var(--gold-mid);box-shadow:0 0 0 1px rgba(154,116,40,.25)}
-.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;gap:1.2rem;text-align:left;background:none;border:0;padding:.95rem 0;cursor:pointer;font-family:var(--serif);font-weight:600;font-size:1.08rem;color:var(--ink);min-height:48px}
-.faq-q:hover{color:var(--gold-deep)}
-.faq-q:focus-visible{outline:2px solid var(--gold-mid);outline-offset:2px}
-.faq-ico{color:var(--gold-mid);font-size:1.25rem;line-height:1;flex:none;width:1.2rem;text-align:center}
-.faq-a{color:var(--muted);font-size:.94rem;line-height:1.65;margin:0 0 .95rem;max-width:58ch}
-.faq-a[hidden]{display:none}
-.faq-item h3{margin:0;font-size:inherit;font-weight:inherit}
-.book{background:linear-gradient(180deg,var(--parchment),rgba(232,196,176,.35) 45%,var(--parchment-2))}
-.book-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.3rem,4vw,2.2rem);align-items:start}
-.cal-card{background:var(--cream-hi);border:1px solid var(--gold-mid);outline:1px solid rgba(154,116,40,.28);outline-offset:3px;padding:1.3rem 1.25rem 1.35rem;border-radius:2px}
-.cal-card h3{margin-bottom:.35rem}
-.cal-card p{color:var(--muted);font-size:.92rem;margin-bottom:1rem}
-.field{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.85rem}
-.field label{font-family:var(--display);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-deep)}
-.field input,.field select,.field textarea{font-family:var(--sans);font-size:1rem;padding:.7rem .85rem;border:1px solid var(--line);background:var(--cream);border-radius:2px;color:var(--ink);min-height:44px;width:100%;transition:border-color .15s ease,box-shadow .15s ease}
-.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold-mid);box-shadow:0 0 0 2px rgba(154,116,40,.22)}
-.field input::placeholder,.field textarea::placeholder{color:rgba(95,83,70,.65)}
-.field textarea{resize:vertical;min-height:96px}
-.form-btn{width:100%;font-family:var(--sans)}
-.form-note{font-size:.8rem;color:var(--muted);margin:.7rem 0 0}
-.sent{background:var(--cream);border:1px solid var(--gold-mid);padding:1.3rem 1.2rem;border-radius:2px;color:var(--ink)}
-.sent[hidden]{display:none}
-.sent h3{margin-bottom:.4rem}
-.detail{margin-top:1.1rem;font-size:.88rem;color:var(--muted);display:flex;flex-direction:column;gap:.35rem}
-.detail strong{color:var(--ink);font-weight:500}
+.about-circle{
+  background:linear-gradient(180deg,var(--parchment) 0%,var(--parchment-2) 45%,var(--parchment) 100%);
+}
+.about-circle .about-body{
+  max-width:42rem;margin:0 auto;
+  color:var(--muted);font-size:1rem;line-height:1.75;text-align:center;
+}
+.about-circle .about-body p{margin:0 0 1rem}
+.about-circle .about-body p:last-child{margin-bottom:0}
+.values{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:.9rem;
+  list-style:none;padding:0;margin:1.6rem 0 0;
+}
+.value{
+  background:var(--cream);border:1px solid var(--line);border-radius:2px;
+  padding:1.15rem 1rem 1.2rem;text-align:center;
+}
+.value strong{
+  display:block;font-family:var(--display);
+  font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gold-deep);font-weight:500;margin-bottom:.4rem;
+}
+.value span{display:block;color:var(--muted);font-size:.88rem;line-height:1.55}
+
+.offerings{background:var(--parchment)}
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;list-style:none;padding:0;margin:0}
+.card{
+  display:flex;flex-direction:column;
+  background:var(--cream);
+  border:1px solid var(--line);
+  border-radius:2px;padding:1.4rem 1.25rem 1.45rem;
+  text-decoration:none;color:inherit;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.card:hover{border-color:var(--gold-mid);box-shadow:var(--shadow);color:inherit}
+.card-status{
+  font-family:var(--display);
+  font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gold-deep);margin:0 0 .45rem;
+}
+.card-status--soon{color:var(--olive)}
+.card h3{font-size:1.3rem;margin:0 0 .55rem;font-style:italic;font-weight:500}
+.card p{color:var(--muted);font-size:.9rem;flex:1;margin:0 0 1.05rem;line-height:1.6}
+.card-cta{font-size:.78rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep)}
+
+.how{
+  background:linear-gradient(180deg,var(--parchment-2) 0%,var(--parchment) 100%);
+}
+.how-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;
+  list-style:none;padding:0;margin:0;counter-reset:how;
+}
+.how-item{
+  background:var(--cream);border:1px solid var(--line);border-radius:2px;
+  padding:1.2rem 1.1rem 1.25rem;
+}
+.how-item::before{
+  counter-increment:how;
+  content:counter(how,decimal-leading-zero);
+  font-family:var(--serif);font-style:italic;font-size:1.15rem;
+  color:var(--gold-mid);display:block;margin-bottom:.3rem;
+}
+.how-item h3{font-size:1.1rem;margin:0 0 .35rem;font-style:italic;font-weight:500}
+.how-item p{color:var(--muted);font-size:.9rem;line-height:1.55;margin:0}
+
+.soft-cta{
+  text-align:center;padding:clamp(2rem,4.5vw,2.7rem) 0;
+  background:radial-gradient(ellipse 55% 80% at 50% 0%,rgba(201,162,75,.12),transparent 65%),var(--parchment);
+}
+.soft-cta p{max-width:38rem;margin:0 auto 1rem;color:var(--muted);line-height:1.65}
+.soft-cta .soft-actions{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin-top:.2rem}
+
 @media (max-width:860px){
-  .steps{grid-template-columns:repeat(2,1fr)}
-  .about-grid,.book-grid,.joy-in,.price-grid{grid-template-columns:1fr}
-  .joy-in{align-items:flex-start}
-  .price--featured{outline-offset:2px}
+  .card-grid,.values,.how-grid{grid-template-columns:1fr}
 }
-@media (max-width:720px){
-  .svc-grid,.steps{grid-template-columns:1fr}
-  .hero-stage{grid-template-columns:1fr;text-align:center}
-  .hero-copy{align-items:center}
-  .hero-actions{max-width:22rem;margin-inline:auto}
-  .hero-actions .btn{width:100%}
-  .portrait{outline-offset:3px;margin:3px}
-}
-
-
-.snl-legals{margin-top:1.35rem;padding-top:1.2rem;border-top:1px solid var(--line-soft)}
-.snl-legals h2{font-family:var(--serif);font-size:1.35rem;margin:0 0 .55rem;font-weight:600}
-.snl-legals .lede{font-family:var(--serif);font-style:italic;font-size:1.05rem;margin:0 0 1rem;color:var(--ink);max-width:42ch}
-.snl-contact{list-style:none;padding:0;margin:0 0 1.25rem;display:grid;gap:.55rem;font-size:.9rem;color:var(--muted);max-width:46ch}
-.snl-contact li{padding:.35rem 0;border-top:1px solid var(--line-soft)}
-.snl-contact li:last-child{border-bottom:1px solid var(--line-soft)}
-.snl-contact strong{display:block;font-family:var(--display);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-deep);font-weight:500;margin-bottom:.12rem}
-.snl-contact a{color:var(--gold-deep)}
-.snl-disclaimer{margin:0;padding:1rem 1.05rem;background:var(--cream);border:1px solid var(--line);border-radius:2px;font-size:.78rem;line-height:1.55;color:var(--muted);max-width:62ch}
-.snl-disclaimer strong{display:block;font-family:var(--display);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-deep);font-weight:500;margin-bottom:.45rem}
-
 </style>
 </head>
 <body>
@@ -135,16 +125,16 @@
 
 <header class="nav">
   <div class="nav-in">
-    <a class="brand" href="../index.html" aria-label="Sacred Circle, home">
-      <img src="../assets/logo-sacred-circle-nav.jpeg" width="40" height="40" alt="">
+    <a class="brand" href="index.html" aria-label="Sacred Circle, home" aria-current="page">
+      <img src="assets/logo-sacred-circle-nav.jpeg" width="40" height="40" alt="">
       <span class="brand-txt">Sacred Circle<small>Calgary</small></span>
     </a>
     <nav class="nav-links" aria-label="Main">
-      <a href="../index.html">Home</a>
-      <a href="index.html" aria-current="page">Shadow &amp; Light</a>
-      <a href="../rainbow-roots/index.html">Rainbow Roots</a>
-      <a href="../astrology/index.html">Astrology</a>
-      <a class="nav-cta" href="#book">Book</a>
+      <a href="index.html" aria-current="page">Sacred Circle</a>
+      <a href="shadow-and-light/index.html">Shadow &amp; Light</a>
+      <a href="rainbow-roots/index.html">Rainbow Roots</a>
+      <a href="astrology/index.html">Astrology</a>
+      <a class="nav-cta" href="shadow-and-light/index.html#book">Book Reiki</a>
     </nav>
     <button class="burger" type="button" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-panel">
       <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
@@ -154,294 +144,144 @@
   </div>
   <div class="mobile-panel" id="mobile-panel" hidden>
     <div class="shell">
-      <a href="../index.html">Home</a>
-      <a href="index.html" aria-current="page">Shadow &amp; Light</a>
-      <a href="../rainbow-roots/index.html">Rainbow Roots</a>
-      <a href="../astrology/index.html">Astrology</a>
-      <a href="#first">What happens</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#book">Book a session</a>
+      <a href="index.html" aria-current="page">Sacred Circle</a>
+      <a href="shadow-and-light/index.html">Shadow &amp; Light</a>
+      <a href="rainbow-roots/index.html">Rainbow Roots</a>
+      <a href="astrology/index.html">Astrology</a>
+      <a href="shadow-and-light/index.html#book">Book Reiki</a>
     </div>
   </div>
 </header>
 
-<div class="biz-bar">
-  <div class="biz-bar-in">
-    <h1>Shadow &amp; Light Reiki</h1>
-    <p class="promise-line">Reiki + Creative Healing · Felicia DiGirolamo</p>
-  </div>
-</div>
-
 <main id="main">
-
-  <section class="hero" id="top">
-    <div class="hero-stage">
-      <figure class="hero-logo">
-        <img src="../assets/brand.jpeg" width="740" height="803" alt="Sacred Circle logo — dragonfly, sun and moon">
+  <section class="hub-hero" id="top">
+    <div class="shell">
+      <figure class="hub-logo">
+        <img src="assets/brand.jpeg" width="560" height="560" alt="Sacred Circle logo — circular brand mark">
       </figure>
-      <div class="hero-copy">
-        <p class="hero-meta">Calgary · In-person &amp; virtual</p>
-        <div class="hero-actions">
-          <a class="btn btn-solid" href="https://cal.com/shadowandlight/private-session" target="_blank" rel="noopener noreferrer">Book a private session</a>
-          <a class="btn btn-ghost" href="https://cal.com/shadowandlight/15min" target="_blank" rel="noopener noreferrer">Free 15‑min consult</a>
-          <a class="btn btn-ghost" href="https://cal.com/shadowandlight/extended-private-session" target="_blank" rel="noopener noreferrer">Extended session</a>
-        </div>
-        <p class="hero-soft"><a href="#first">See what a first session looks like</a></p>
+      <p class="hub-name">Sacred Circle</p>
+      <h1 class="hub-line">A Calgary home for healing, kids who can be themselves, and discovering who you really are.</h1>
+      <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
+      <p class="hub-intro" style="margin-top:1.15rem">
+        Sacred Circle is the umbrella — one shared ground for offerings that sit side by side, each with its own pace and purpose.
+        Not a single clinic, and not a demand that you believe anything in particular. Just a warm Calgary home for care, belonging, and room to grow — in person and online where it fits.
+      </p>
+      <div class="hub-actions">
+        <a class="btn btn-solid" href="#offerings">Explore offerings</a>
+        <a class="btn btn-ghost" href="shadow-and-light/index.html#book">Book Reiki</a>
       </div>
     </div>
   </section>
 
-  <section class="about" id="about">
-    <div class="shell about-grid">
-      <div class="portrait">
-        <img class="portrait-img" src="../assets/felicia.jpg" width="640" height="800" alt="Felicia DiGirolamo, Reiki practitioner and creative healer">
-      </div>
-      <div>
-        <p class="eyebrow">About</p>
-        <h2>Meet Your Practitioner</h2>
-        <p class="lede-about">Welcome! My name is Felicia DiGirolamo.</p>
-        <p>My journey into holistic wellness began with a deep calling to understand both the hidden parts of our struggles&mdash;the shadows&mdash;and our innate power to heal&mdash;the light. After graduating from Eternal Beauty and certifying as a Reiki Practitioner, I expanded my toolkit into Spiritual Life Coaching and Subconscious Guided Imagery.</p>
-        <p>I created <em>Shadow &amp; Light</em> to provide a balanced approach to wellness, bridging the gap between gentle energy work and actionable life empowerment. In my practice, I don&rsquo;t just treat symptoms; I look at the whole person&mdash;mind, body, and spirit. I am here to hold a compassionate, completely non-judgmental space for you as you map out your unique path to personal freedom and energetic alignment.</p>
-        <ul class="meta-list">
-          <li>
-            <strong>Training</strong>
-            Eternal Beauty graduate · Certified Reiki Practitioner · Spiritual Life Coaching · Subconscious Guided Imagery
-          </li>
-          <li>
-            <strong>Approach</strong>
-            Whole-person wellness&mdash;mind, body, and spirit&mdash;with gentle energy work and actionable life empowerment in a non-judgmental space.
-          </li>
-        </ul>
-        <a class="btn btn-solid" href="#book">Schedule a session</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="first" id="first">
+  <section class="about-circle" id="about">
     <div class="shell">
       <div class="sec-head">
-        <p class="eyebrow">What happens</p>
-        <h2 class="promise">You don&rsquo;t have to carry it alone.</h2>
+        <p class="eyebrow">About Sacred Circle</p>
+        <h2>One circle, many paths</h2>
         <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
-        <h3 class="subhead">Nothing here is a surprise</h3>
-        <p>If you’ve never done this before, here is exactly how it goes — start to finish.</p>
+        <p>The main home — not a replacement for the nested pages that live inside it.</p>
       </div>
-      <ol class="steps">
-        <li class="step">
-          <h3>Before</h3>
-          <p>Wear something loose and comfortable. Nothing to prepare, read, or believe in. Come exactly as you are.</p>
+      <div class="about-body">
+        <p>
+          Sacred Circle holds the shared header and the front door. Under it, nested businesses keep their own voice and timing:
+          Shadow &amp; Light for trauma-informed Reiki and creative healing; Rainbow Roots for daycare where kids can be themselves;
+          Astrology Discovery for chart-led self-understanding.
+        </p>
+        <p>
+          You can visit one path today and another later. Nothing here asks you to buy into a whole worldview —
+          only to show up as you are, in Calgary or online when that is the kinder option.
+        </p>
+      </div>
+      <ul class="values">
+        <li class="value">
+          <strong>Care</strong>
+          <span>Gentle, clear offerings without hype or pressure.</span>
         </li>
-        <li class="step">
-          <h3>Talk</h3>
-          <p>Ten or fifteen minutes: what brings you, what you would like held, and anything to leave alone — including whether there is any touch at all.</p>
+        <li class="value">
+          <strong>Belonging</strong>
+          <span>Room for kids, seekers, and anyone finding their footing.</span>
         </li>
-        <li class="step">
-          <h3>Session</h3>
-          <p>Fully clothed on a padded table, lights low, quiet music, a blanket if you want one. Hands rest lightly on or just above the body. Sleeping is fine.</p>
+        <li class="value">
+          <strong>Room to grow</strong>
+          <span>Each path unfolds at its own pace under one roof.</span>
         </li>
-        <li class="step">
-          <h3>Afterward</h3>
-          <p>We come back slowly, with water and a little time. Some people feel it for a day or two; some feel nothing much. Both are normal.</p>
+      </ul>
+    </div>
+  </section>
+
+  <section class="offerings" id="offerings">
+    <div class="shell">
+      <div class="sec-head">
+        <p class="eyebrow">Under one roof</p>
+        <h2>Three paths, one circle</h2>
+        <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
+        <p>Choose what you need today. Each page stands on its own.</p>
+      </div>
+      <ul class="card-grid">
+        <li>
+          <a class="card" href="shadow-and-light/index.html">
+            <p class="card-status">Live · Bookable</p>
+            <h3>Shadow &amp; Light Reiki</h3>
+            <p>Trauma-informed Reiki, creative release, and grounding work with Felicia DiGirolamo. Private sessions and small circles — in-person in Calgary or virtual.</p>
+            <span class="card-cta">Visit full page →</span>
+          </a>
+        </li>
+        <li>
+          <a class="card" href="rainbow-roots/index.html">
+            <p class="card-status card-status--soon">Intro · Growing</p>
+            <h3>Rainbow Roots</h3>
+            <p>A daycare where kids can be themselves — warm care, room to grow, and a place that honours who they already are.</p>
+            <span class="card-cta">Read intro →</span>
+          </a>
+        </li>
+        <li>
+          <a class="card" href="astrology/index.html">
+            <p class="card-status card-status--soon">Intro · Growing</p>
+            <h3>Astrology Discovery</h3>
+            <p>Understanding who you really are — chart-led reflection for clarity, timing, and a kinder relationship with yourself.</p>
+            <span class="card-cta">Read intro →</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="shell">
+      <div class="sec-head">
+        <p class="eyebrow">How it works together</p>
+        <h2>Simple on purpose</h2>
+        <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
+        <p>Sacred Circle stays the shared home. The nested pages do the deep work.</p>
+      </div>
+      <ol class="how-grid">
+        <li class="how-item">
+          <h3>Visit one path</h3>
+          <p>Start with Reiki, daycare, or astrology — whichever fits what you need right now.</p>
+        </li>
+        <li class="how-item">
+          <h3>Each has its own page</h3>
+          <p>Full detail, bookings, and intros live on the nested sites, not crammed into this home.</p>
+        </li>
+        <li class="how-item">
+          <h3>Circle stays home</h3>
+          <p>Sacred Circle remains the shared header and front door you can always return to.</p>
         </li>
       </ol>
     </div>
   </section>
 
-  <section class="services" id="services">
+  <section class="soft-cta" id="book-soft">
     <div class="shell">
-      <div class="sec-head">
-        <p class="eyebrow">Services</p>
-        <h2>Private work, or a small circle</h2>
-        <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
-        <p>In-home in Calgary, or virtual. Every offering can be one-on-one or shared with a few people you trust.</p>
-      </div>
-      <div class="svc-grid">
-        <article class="svc svc--start">
-          <span class="svc-badge">Start here</span>
-          <h3>Private Reiki</h3>
-          <p>Gentle, light-touch or fully hands-off energy work. Most people describe warmth, deep rest, and a nervous system that finally stops bracing.</p>
-        </article>
-        <article class="svc">
-          <h3>Deep Release Bodywork</h3>
-          <p>Slow, grounding, weighted touch for the heaviness you have been carrying in your body — paced entirely to what feels safe on the day.</p>
-        </article>
-        <article class="svc">
-          <h3>Grounding &amp; Breathwork</h3>
-          <p>Simple breath and grounding practices to help your body come back to steady. Private, or shared in a small circle.</p>
-        </article>
-        <article class="svc">
-          <h3>Creative &amp; Shadow Work</h3>
-          <p>Art, expression, and reflective work for what is hard to put into words — including the parts you keep in the dark. No skill required; nothing you make is judged or kept.</p>
-        </article>
-      </div>
-      <p class="also">Also available <span>·</span> Habit &amp; Pattern Guidance <span>·</span> Rebirth Journeys <span>·</span> Group circles</p>
-    </div>
-  </section>
-
-  <section class="joy" aria-labelledby="joy-title">
-    <div class="shell joy-in">
-      <div class="joy-copy">
-        <p class="eyebrow">Optional modality</p>
-        <h2 id="joy-title">The Joy Activation Room</h2>
-        <p>Not a secret room and not a separate booking. If a session wants to be brighter — movement, voice, play — we can make space for that. Mention it when you book, or wait and see how the hour unfolds.</p>
-      </div>
-      <a class="btn btn-on-dark" href="#book">Book and mention joy</a>
-    </div>
-  </section>
-
-  <section class="pricing" id="pricing">
-    <div class="shell">
-      <div class="sec-head">
-        <p class="eyebrow">Pricing</p>
-        <h2>Clear, compact, no surprises</h2>
-        <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
-      </div>
-      <div class="price-grid">
-        <div class="price">
-          <p class="price-map">Private Reiki · Breathwork</p>
-          <h3>Private session</h3>
-          <div class="price-amt">$120</div>
-          <p>60 minutes, one-on-one. The right place to start if this is new.</p>
-          <a class="btn btn-ghost" href="https://cal.com/shadowandlight/private-session" target="_blank" rel="noopener noreferrer">Book<span class="vh"> a private session</span></a>
-        </div>
-        <div class="price price--featured">
-          <div class="price-tag">Most booked</div>
-          <p class="price-map">Combine any modalities</p>
-          <h3>Extended private</h3>
-          <div class="price-amt">$175</div>
-          <p>90 minutes — bodywork, creative or shadow work, more room to go slowly.</p>
-          <a class="btn btn-solid" href="https://cal.com/shadowandlight/extended-private-session" target="_blank" rel="noopener noreferrer">Book<span class="vh"> an extended private session</span></a>
-        </div>
-        <div class="price">
-          <p class="price-map">Shared circle</p>
-          <h3>Group circle</h3>
-          <div class="price-amt">$65 <span>/ person</span></div>
-          <p>90 minutes, small group. Shared, unhurried, quiet.</p>
-          <a class="btn btn-ghost" href="#book">Book<span class="vh"> a group circle</span></a>
-        </div>
-      </div>
-      <p class="price-note">Group circles are booked as a whole — reach out and we’ll find a date that works for your people.</p>
-    </div>
-  </section>
-
-  <section class="faq" id="faq">
-    <div class="shell">
-      <div class="sec-head">
-        <p class="eyebrow">FAQ</p>
-        <h2>Common questions</h2>
-        <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
-      </div>
-      <div class="faq-wrap">
-        <div class="faq-item">
-          <h3><button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a-1">
-            <span>I have never done this before — what actually happens?</span>
-            <span class="faq-ico" aria-hidden="true">+</span>
-          </button></h3>
-          <p class="faq-a" id="faq-a-1" hidden>You stay fully clothed on a padded table with the lights low and quiet music playing. We talk for ten or fifteen minutes first, then the hands-on part runs about forty-five minutes, then we come back slowly. That is the whole thing.</p>
-        </div>
-        <div class="faq-item">
-          <h3><button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a-2">
-            <span>How do I choose?</span>
-            <span class="faq-ico" aria-hidden="true">+</span>
-          </button></h3>
-          <p class="faq-a" id="faq-a-2" hidden>If this is new, start with a 60-minute private Reiki session. If you already know you want more time — or to combine bodywork, breath, creative or shadow work — book the 90-minute extended session. Group circles are for a few people who want to share the room. Unsure? Send a note and Felicia will help you pick.</p>
-        </div>
-        <div class="faq-item">
-          <h3><button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a-3">
-            <span>Do you touch me?</span>
-            <span class="faq-ico" aria-hidden="true">+</span>
-          </button></h3>
-          <p class="faq-a" id="faq-a-3" hidden>Only if you want me to, and only where you have agreed. Reiki works with hands resting lightly on the body, hovering just above it, or entirely hands-off — all three are equally valid. You can change your mind partway through and we simply adjust.</p>
-        </div>
-        <div class="faq-item">
-          <h3><button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a-4">
-            <span>What if I do not feel anything?</span>
-            <span class="faq-ico" aria-hidden="true">+</span>
-          </button></h3>
-          <p class="faq-a" id="faq-a-4" hidden>That happens often and it is completely fine. Some people feel warmth, tingling, heaviness, or tears; others just feel like they had a very good nap. You do not need a dramatic experience for the session to have been worthwhile.</p>
-        </div>
-        <div class="faq-item">
-          <h3><button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a-5">
-            <span>Is this a replacement for therapy or medical care?</span>
-            <span class="faq-ico" aria-hidden="true">+</span>
-          </button></h3>
-          <p class="faq-a" id="faq-a-5" hidden>No — and I will never suggest otherwise. This work sits alongside medical, psychological, and physiotherapy care rather than replacing any of it. If something comes up that belongs with a licensed professional, I will say so plainly.</p>
-        </div>
-        <div class="faq-item">
-          <h3><button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a-6">
-            <span>What should I wear or bring?</span>
-            <span class="faq-ico" aria-hidden="true">+</span>
-          </button></h3>
-          <p class="faq-a" id="faq-a-6" hidden>Comfortable, loose clothing you can lie down in. Shoes, glasses, and bulky jewellery come off. Bring water for afterward if you like — otherwise, nothing at all.</p>
-        </div>
-        <div class="faq-item">
-          <h3><button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-a-7">
-            <span>What if I get emotional — and what’s the cancellation policy?</span>
-            <span class="faq-ico" aria-hidden="true">+</span>
-          </button></h3>
-          <p class="faq-a" id="faq-a-7" hidden>Tears, shaking, laughing, or going very quiet are all ordinary ways a body lets go. We can pause or stop whenever you want. For cancellations, twenty-four hours’ notice is appreciated so the time can be offered to someone else. Life happens — if something goes sideways, just tell me.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="book" id="book">
-    <div class="shell book-grid">
-      <div>
-        <p class="eyebrow">Book</p>
-        <h2>Pick a time that suits you</h2>
-        <div class="ornament" aria-hidden="true" style="justify-content:flex-start;margin:.7rem 0 1rem"><i></i><b></b><i></i></div>
-        <div class="cal-card">
-          <h3>Live calendar</h3>
-          <p>Instant confirmation and a reminder before your session. In-person in Calgary, or virtual.</p>
-          <div class="book-actions">
-            <a class="btn btn-solid" href="https://cal.com/shadowandlight/private-session" target="_blank" rel="noopener noreferrer">Book a private session</a>
-            <a class="btn btn-ghost" href="https://cal.com/shadowandlight/15min" target="_blank" rel="noopener noreferrer">Free 15‑min consult</a>
-          </div>
-          <p class="book-alt">Or book an <a href="https://cal.com/shadowandlight/extended-private-session" target="_blank" rel="noopener noreferrer">Extended Private Session (90&nbsp;min)</a>. Prefer to browse everything? <a href="https://cal.com/shadowandlight" target="_blank" rel="noopener noreferrer">See all times</a>.</p>
-        </div>
-        <div class="detail">
-          <div><strong>Location</strong> — Calgary, AB. Exact address shared once your booking is confirmed.</div>
-          <div><strong>Hours</strong> — By appointment, including evenings and weekends.</div>
-        </div>
-      </div>
-      <div>
-        <div class="sent" id="form-sent" hidden tabindex="-1">
-          <h3>Thank you</h3>
-          <p>Felicia will reach out soon. If it’s easier, you’re always welcome to book directly using the calendar.</p>
-        </div>
-        <form id="contact-form">
-          <p style="margin:0 0 .85rem;color:var(--muted);font-size:.92rem">Prefer to talk first? Send a note — no obligation to book.</p>
-          <div class="field">
-            <label for="f-name">Name</label>
-            <input id="f-name" name="name" type="text" autocomplete="name" required>
-          </div>
-          <div class="field">
-            <label for="f-email">Email</label>
-            <input id="f-email" name="email" type="email" autocomplete="email" required>
-          </div>
-          <div class="field">
-            <label for="f-session">What you’re drawn to</label>
-            <select id="f-session" name="session">
-              <option value="">Not sure yet — help me choose</option>
-              <option value="reiki">Private Reiki</option>
-              <option value="extended">Extended private (combine modalities)</option>
-              <option value="bodywork">Deep Release Bodywork</option>
-              <option value="breathwork">Grounding &amp; Breathwork</option>
-              <option value="creative">Creative &amp; Shadow Work</option>
-              <option value="joy">Joy Activation Room</option>
-              <option value="group">Group circle</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="f-msg">Anything you’d like Felicia to know</label>
-            <textarea id="f-msg" name="message" rows="3" placeholder="However much or little you want to share."></textarea>
-          </div>
-          <button class="btn btn-solid form-btn" type="submit" id="form-btn">Send a note</button>
-          <p class="form-note">Demo form — shows a thank-you on this page. Wire to email or a host form before launch. See the <a href="#privacy">privacy note</a>.</p>
-        </form>
+      <p class="eyebrow">When you’re ready</p>
+      <h2 style="font-style:italic;margin-bottom:.55rem">Reiki is live for booking</h2>
+      <p>
+        Shadow &amp; Light is open for private sessions, extended work, and a free 15-minute consult —
+        while Sacred Circle stays the home for every path under the umbrella.
+      </p>
+      <div class="soft-actions">
+        <a class="btn btn-solid" href="shadow-and-light/index.html#book">Go to booking</a>
+        <a class="btn btn-ghost" href="#offerings">Back to offerings</a>
       </div>
     </div>
   </section>
@@ -450,85 +290,24 @@
 <footer class="foot">
   <div class="shell">
     <div class="foot-top">
-      <a class="foot-brand" href="../index.html">
-        <img src="../assets/logo-sacred-circle-nav.jpeg" width="36" height="36" alt="">
+      <a class="foot-brand" href="index.html">
+        <img src="assets/logo-sacred-circle-nav.jpeg" width="36" height="36" alt="">
         <span>Sacred Circle</span>
       </a>
-      <div class="foot-meta">Shadow &amp; Light · Calgary · Felicia DiGirolamo</div>
+      <div class="foot-meta">Calgary, Alberta</div>
     </div>
     <nav class="foot-nav" aria-label="Footer">
-      <a href="../index.html">Sacred Circle home</a>
-      <a href="../rainbow-roots/index.html">Rainbow Roots</a>
-      <a href="../astrology/index.html">Astrology Discovery</a>
+      <a href="shadow-and-light/index.html">Shadow &amp; Light</a>
+      <a href="rainbow-roots/index.html">Rainbow Roots</a>
+      <a href="astrology/index.html">Astrology Discovery</a>
     </nav>
-
-    <div class="snl-legals" id="connect">
-      <h2>Connect With Me</h2>
-      <p class="lede">Ready to start your journey from shadow to light? Let&rsquo;s connect.</p>
-      <ul class="snl-contact">
-        <li>
-          <strong>Practitioner</strong>
-          Felicia DiGirolamo
-        </li>
-        <li>
-          <strong>Email</strong>
-          <a href="mailto:shadowandlighthealing@proton.me">shadowandlighthealing@proton.me</a>
-        </li>
-        <li>
-          <strong>Phone</strong>
-          <a href="tel:+15879983335">587-998-3335</a>
-        </li>
-        <li>
-          <strong>Location</strong>
-          119 Doverthorn Bay SE, Calgary, Alberta &amp; Online Globally
-        </li>
-        <li>
-          <strong>Social</strong>
-          <a href="https://www.instagram.com/ShadowAndLightHealing" target="_blank" rel="noopener noreferrer">@ShadowAndLightHealing</a>
-        </li>
-      </ul>
-      <p class="snl-disclaimer" id="disclaimer">
-        <strong>Disclaimer</strong>
-        Shadow &amp; Light Reiki &amp; Creative Healing provides spiritual life coaching, intuitive energy balancing, chakra clearing, lymphatic release, and guided subconscious visualization for personal growth and relaxation purposes only. The practitioner, Felicia DiGirolamo, is not a licensed psychologist, physician, or clinical mental health therapist. Services, workshops, products, and coaching programs do not diagnose, treat, or cure any medical or psychological condition, and are never a replacement for professional healthcare or clinical treatment.
-      </p>
-    </div>
-
+    <p class="scope">Offerings under Sacred Circle are complementary care and community services for rest, belonging, and self-understanding — alongside professional support you already trust, never instead of it. No outcome is promised.</p>
     <p class="foot-privacy"><a href="#privacy">Privacy</a></p>
     <div id="privacy">
-      Notes sent through this site are used only to reply to you. No mailing list, no sharing with third parties for marketing. Booking details stay between you and Felicia.
+      Contact notes and booking details are used only to reply to you. No mailing list, no sharing with third parties for marketing. Full privacy policy to be added before launch.
     </div>
   </div>
 </footer>
-
-<script src="../assets/nav.js"></script>
-<script>
-(function () {
-  'use strict';
-  var questions = Array.prototype.slice.call(document.querySelectorAll('.faq-q'));
-  questions.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var wasOpen = btn.getAttribute('aria-expanded') === 'true';
-      questions.forEach(function (other) {
-        other.setAttribute('aria-expanded', 'false');
-        other.querySelector('.faq-ico').textContent = '+';
-        document.getElementById(other.getAttribute('aria-controls')).hidden = true;
-      });
-      if (!wasOpen) {
-        btn.setAttribute('aria-expanded', 'true');
-        btn.querySelector('.faq-ico').textContent = '−';
-        document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
-      }
-    });
-  });
-  var form = document.getElementById('contact-form');
-  var sent = document.getElementById('form-sent');
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    form.hidden = true;
-    sent.hidden = false;
-    sent.focus();
-  });
-})();
-</script>
+<script src="assets/nav.js"></script>
 </body>
 </html>
