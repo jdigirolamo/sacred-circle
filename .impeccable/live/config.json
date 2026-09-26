@@ -1,0 +1,6 @@
+{
+  "files": ["index.html", "shadow-and-light/index.html", "rainbow-roots/index.html", "astrology/index.html"],
+  "insertBefore": "</body>",
+  "commentSyntax": "html",
+  "cspChecked": true
+}

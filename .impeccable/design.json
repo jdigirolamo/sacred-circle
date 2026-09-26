@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-25T21:28:28-06:00",
+  "title": "Design System: Sacred Circle",
+  "extensions": {
+    "colorMeta": {
+      "parchment": {
+        "role": "neutral",
+        "displayName": "Parchment",
+        "canonical": "#ede2d0",
+        "tonalRamp": [
+          "#372A15",
+          "#5C4623",
+          "#816231",
+          "#A57F3F",
+          "#BF9859",
+          "#D1B688",
+          "#E5D6BC",
+          "#F5EFE5"
+        ]
+      },
+      "parchment-2": {
+        "role": "neutral",
+        "displayName": "Parchment Depth",
+        "canonical": "#e4d6c0",
+        "tonalRamp": [
+          "#352916",
+          "#594526",
+          "#7C6135",
+          "#A07C44",
+          "#BA965E",
+          "#CEB48C",
+          "#E3D5BE",
+          "#F4EEE6"
+        ]
+      },
+      "parchment-hi": {
+        "role": "neutral",
+        "displayName": "Parchment High",
+        "canonical": "#f5eee4",
+        "tonalRamp": [
+          "#372914",
+          "#5D4422",
+          "#826030",
+          "#A77C3E",
+          "#C09557",
+          "#D2B487",
+          "#E6D4BC",
+          "#F5EEE4"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream Card",
+        "canonical": "#e8ceb6",
+        "tonalRamp": [
+          "#3A2512",
+          "#603E1E",
+          "#87572A",
+          "#AE7036",
+          "#C88950",
+          "#D7AB82",
+          "#E9D0B9",
+          "#F6ECE3"
+        ]
+      },
+      "cream-hi": {
+        "role": "neutral",
+        "displayName": "Cream High",
+        "canonical": "#edd6c0",
+        "tonalRamp": [
+          "#3B2510",
+          "#633E1C",
+          "#8A5827",
+          "#B27132",
+          "#CC8A4C",
+          "#DAAC80",
+          "#EAD0B7",
+          "#F7ECE3"
+        ]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Bright Gold",
+        "canonical": "#C9A24B",
+        "tonalRamp": [
+          "#3A2E11",
+          "#624C1D",
+          "#896B29",
+          "#B08A34",
+          "#CAA34E",
+          "#D9BE81",
+          "#E9DAB8",
+          "#F6F0E3"
+        ]
+      },
+      "gold-mid": {
+        "role": "primary",
+        "displayName": "Mid Gold",
+        "canonical": "#9A7428",
+        "tonalRamp": [
+          "#3C2D0F",
+          "#654C1A",
+          "#8D6A24",
+          "#B6892F",
+          "#CFA248",
+          "#DDBD7D",
+          "#ECDAB6",
+          "#F7F0E2"
+        ]
+      },
+      "gold-deep": {
+        "role": "primary",
+        "displayName": "Deep Threshold Gold",
+        "canonical": "#7A5C1E",
+        "tonalRamp": [
+          "#3D2E0F",
+          "#664D19",
+          "#8F6C23",
+          "#B88A2D",
+          "#D1A446",
+          "#DEBE7C",
+          "#ECDAB5",
+          "#F7F0E2"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#3D3429",
+        "tonalRamp": [
+          "#2D261E",
+          "#4C4133",
+          "#6A5A47",
+          "#89755C",
+          "#A28E75",
+          "#BDAF9D",
+          "#DAD2C8",
+          "#F0EDE9"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Brown",
+        "canonical": "#5F5346",
+        "tonalRamp": [
+          "#2C2620",
+          "#494036",
+          "#66594B",
+          "#847361",
+          "#9D8C7A",
+          "#B9ADA1",
+          "#D8D1CA",
+          "#EFEDEA"
+        ]
+      },
+      "olive": {
+        "role": "secondary",
+        "displayName": "Grove Olive",
+        "canonical": "#5C6B4A",
+        "tonalRamp": [
+          "#262D1F",
+          "#404B34",
+          "#5A6948",
+          "#74875D",
+          "#8EA177",
+          "#AEBC9E",
+          "#D1D9C8",
+          "#EDF0E9"
+        ]
+      },
+      "peach": {
+        "role": "secondary",
+        "displayName": "Soft Peach",
+        "canonical": "#E8C4B0",
+        "tonalRamp": [
+          "#3B2011",
+          "#62351C",
+          "#8A4B28",
+          "#B16033",
+          "#CB7A4D",
+          "#DAA080",
+          "#EAC9B7",
+          "#F6EAE3"
+        ]
+      },
+      "charcoal": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "canonical": "#241C16",
+        "tonalRamp": [
+          "#2F241D",
+          "#4F3D30",
+          "#6E5643",
+          "#8E6E57",
+          "#A78870",
+          "#C1AA99",
+          "#DCCFC6",
+          "#F1ECE8"
+        ]
+      },
+      "charcoal-warm": {
+        "role": "neutral",
+        "displayName": "Warm Charcoal",
+        "canonical": "#2E241C",
+        "tonalRamp": [
+          "#2F251C",
+          "#4F3E30",
+          "#6E5643",
+          "#8E6F56",
+          "#A88970",
+          "#C1AB99",
+          "#DCCFC5",
+          "#F1ECE8"
+        ]
+      },
+      "accent-rr": {
+        "role": "tertiary",
+        "displayName": "Rainbow Roots Green",
+        "canonical": "#4A6B4A",
+        "tonalRamp": [
+          "#1F2D1F",
+          "#344B34",
+          "#486948",
+          "#5D875D",
+          "#77A177",
+          "#9EBC9E",
+          "#C8D9C8",
+          "#E9F0E9"
+        ]
+      },
+      "accent-astro": {
+        "role": "tertiary",
+        "displayName": "Astrology Indigo",
+        "canonical": "#3D3A6B",
+        "tonalRamp": [
+          "#1C1A31",
+          "#2F2C52",
+          "#413E73",
+          "#545094",
+          "#6E6AAE",
+          "#9895C5",
+          "#C5C3DE",
+          "#E8E7F2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display / Eyebrow",
+        "purpose": "Cinzel tracked uppercase micro-labels and hub name."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Cormorant Garamond italic page and hub headlines."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section h2 titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Jost UI and reading text at 16px / 1.6."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Cinzel/Jost uppercase labels and button tracking."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient",
+        "value": "0 6px 20px rgba(61,52,41,.06)",
+        "purpose": "Card hover lift and shared --shadow token."
+      },
+      {
+        "name": "hero-mark",
+        "value": "0 10px 32px rgba(61,52,41,.14)",
+        "purpose": "Circular hub logo glow only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-state",
+        "value": "0.2s ease",
+        "purpose": "Button and card border/background/shadow state transitions."
+      },
+      {
+        "name": "reduce-motion",
+        "value": "prefers-reduced-motion: reduce → durations ~0.01ms",
+        "purpose": "Honor OS reduced-motion; disable smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "860px",
+        "purpose": "Three-column hub grids (cards, values, how) collapse to one column."
+      },
+      {
+        "name": "nav-mobile",
+        "value": "720px",
+        "purpose": "Desktop nav links hide; burger and mobile panel appear."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Solid Button",
+      "kind": "button",
+      "refersTo": "button-solid",
+      "description": "Primary gold-deep CTA for explore/book actions on parchment.",
+      "html": "<button type=\"button\" class=\"ds-btn-solid\">Explore offerings</button>",
+      "css": ".ds-btn-solid{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.65rem 1.45rem;font-family:Jost,system-ui,sans-serif;font-size:.78rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;background:#7A5C1E;color:#edd6c0;border:1px solid #7A5C1E;border-radius:2px;cursor:pointer;transition:background .2s ease,color .2s ease,border-color .2s ease}.ds-btn-solid:hover{background:#9A7428;border-color:#9A7428;color:#edd6c0}.ds-btn-solid:focus-visible{outline:2px solid #9A7428;outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary outlined action that stays quiet beside the solid gold CTA.",
+      "html": "<button type=\"button\" class=\"ds-btn-ghost\">Book Reiki</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.65rem 1.45rem;font-family:Jost,system-ui,sans-serif;font-size:.78rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;background:transparent;color:#3D3429;border:1px solid #9A7428;border-radius:2px;cursor:pointer;transition:background .2s ease}.ds-btn-ghost:hover{background:rgba(201,162,75,.14);color:#3D3429}.ds-btn-ghost:focus-visible{outline:2px solid #9A7428;outline-offset:3px}"
+    },
+    {
+      "name": "On-dark Button",
+      "kind": "button",
+      "refersTo": "button-on-dark",
+      "description": "Bright gold control for charcoal bands and dark footers.",
+      "html": "<button type=\"button\" class=\"ds-btn-on-dark\">Go to booking</button>",
+      "css": ".ds-btn-on-dark{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.65rem 1.45rem;font-family:Jost,system-ui,sans-serif;font-size:.78rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;background:#C9A24B;color:#241C16;border:1px solid #C9A24B;border-radius:2px;cursor:pointer;transition:background .2s ease,color .2s ease}.ds-btn-on-dark:hover{background:#edd6c0;border-color:#edd6c0;color:#241C16}.ds-btn-on-dark:focus-visible{outline:2px solid #C9A24B;outline-offset:3px}"
+    },
+    {
+      "name": "Offering Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Hub path card: status, italic title, muted blurb, uppercase CTA.",
+      "html": "<a class=\"ds-card\" href=\"#\"><p class=\"ds-card-status\">Live · Bookable</p><h3 class=\"ds-card-title\">Shadow &amp; Light Reiki</h3><p class=\"ds-card-body\">Trauma-informed Reiki and grounding work — in Calgary or virtual.</p><span class=\"ds-card-cta\">Visit full page →</span></a>",
+      "css": ".ds-card{display:flex;flex-direction:column;background:#e8ceb6;border:1px solid rgba(122,92,30,.32);border-radius:2px;padding:1.4rem 1.25rem 1.45rem;text-decoration:none;color:#3D3429;transition:border-color .2s ease,box-shadow .2s ease;max-width:22rem}.ds-card:hover,.ds-card:focus-visible{border-color:#9A7428;box-shadow:0 6px 20px rgba(61,52,41,.06);color:#3D3429;outline:none}.ds-card:focus-visible{outline:2px solid #9A7428;outline-offset:3px}.ds-card-status{font-family:Cinzel,Georgia,serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#7A5C1E;margin:0 0 .45rem}.ds-card-title{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:1.3rem;margin:0 0 .55rem;line-height:1.2}.ds-card-body{color:#4A4036;font-family:Jost,system-ui,sans-serif;font-size:.9rem;line-height:1.6;margin:0 0 1.05rem;flex:1}.ds-card-cta{font-family:Jost,system-ui,sans-serif;font-size:.78rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#7A5C1E}"
+    },
+    {
+      "name": "Sticky Nav",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Umbrella sticky bar with serif brand and gold CTA.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\">Sacred Circle<span>Calgary</span></a><nav class=\"ds-nav-links\" aria-label=\"Main\"><a href=\"#\" aria-current=\"page\">Sacred Circle</a><a href=\"#\">Shadow &amp; Light</a><a class=\"ds-nav-cta\" href=\"#\">Book Reiki</a></nav></header>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.5rem 1rem;background:rgba(237,226,208,.96);border-bottom:1px solid rgba(122,92,30,.2);font-family:Jost,system-ui,sans-serif}.ds-brand{display:flex;flex-direction:column;text-decoration:none;color:#3D3429;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:1.12rem;min-height:44px;justify-content:center}.ds-brand span{font-family:Cinzel,Georgia,serif;font-style:normal;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:#7A5C1E;margin-top:.1rem}.ds-nav-links{display:flex;align-items:center;gap:1.15rem}.ds-nav-links a{color:#3D3429;text-decoration:none;font-size:.86rem;min-height:44px;display:inline-flex;align-items:center}.ds-nav-links a[aria-current=page],.ds-nav-links a:hover{color:#7A5C1E}.ds-nav-cta{background:#7A5C1E!important;color:#edd6c0!important;padding:0 1.15rem;border-radius:2px;min-height:40px}.ds-nav-cta:hover{background:#9A7428!important}.ds-nav a:focus-visible{outline:2px solid #9A7428;outline-offset:3px}"
+    },
+    {
+      "name": "Eyebrow Label",
+      "kind": "chip",
+      "refersTo": "label",
+      "description": "Cinzel tracked uppercase section eyebrow in accent gold.",
+      "html": "<p class=\"ds-eyebrow\">Under one roof</p>",
+      "css": ".ds-eyebrow{font-family:Cinzel,Georgia,serif;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:#7A5C1E;margin:0;font-weight:500}"
+    },
+    {
+      "name": "Section Ornament",
+      "kind": "custom",
+      "refersTo": "ornament",
+      "description": "Hairline–diamond–hairline punctuation under section titles.",
+      "html": "<div class=\"ds-ornament\" aria-hidden=\"true\"><i></i><b></b><i></i></div>",
+      "css": ".ds-ornament{display:flex;align-items:center;justify-content:center;gap:.55rem;margin:.75rem 0 0}.ds-ornament i{display:block;width:2.4rem;height:1px;background:linear-gradient(90deg,transparent,#9A7428,transparent)}.ds-ornament b{width:6px;height:6px;background:#7A5C1E;transform:rotate(45deg);flex:none}"
+    },
+    {
+      "name": "Value Tile",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Compact cream value block with Cinzel title and supporting line.",
+      "html": "<div class=\"ds-value\"><strong>Care</strong><span>Gentle, clear offerings without hype or pressure.</span></div>",
+      "css": ".ds-value{background:#e8ceb6;border:1px solid rgba(122,92,30,.32);border-radius:2px;padding:1.15rem 1rem 1.2rem;text-align:center;max-width:16rem}.ds-value strong{display:block;font-family:Cinzel,Georgia,serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#7A5C1E;font-weight:500;margin-bottom:.4rem}.ds-value span{display:block;color:#4A4036;font-family:Jost,system-ui,sans-serif;font-size:.88rem;line-height:1.55}"
+    },
+    {
+      "name": "Skip Link",
+      "kind": "custom",
+      "refersTo": "nav",
+      "description": "Focusable skip-to-content control revealed at top-left.",
+      "html": "<a class=\"ds-skip\" href=\"#main\">Skip to content</a>",
+      "css": ".ds-skip{position:absolute;left:.5rem;top:.5rem;z-index:200;background:#7A5C1E;color:#edd6c0;padding:.7rem 1.1rem;font-size:.9rem;font-family:Jost,system-ui,sans-serif;text-decoration:none;border-radius:2px}.ds-skip:focus-visible{outline:2px solid #9A7428;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Dragonfly Threshold",
+    "overview": "Sacred Circle is the warm front door — a parchment threshold where visitors pause, orient, and choose a path without pressure. The dragonfly (the live circular brand mark) is the quiet guide at that threshold: light, precise, and welcoming rather than clinical or mystical-hard-sell. Surfaces stay soft and paper-like; gold accents mark readiness and care; nested businesses keep their own voice once you step through.\n\nThe system favors calm density over spectacle: a centered shell, nearly sharp corners, thin gold hairlines, and serif headlines that feel handwritten-in-spirit without abandoning clarity. Motion is restrained (state transitions only). Page accents may shift for Rainbow Roots (green) and Astrology Discovery (indigo), but the umbrella default remains deep gold on warm parchment.",
+    "keyCharacteristics": [
+      "Warm parchment field with cream cards and charcoal footer",
+      "Deep gold as the default accent; green/indigo only on nested page overrides",
+      "Cinzel for micro display/eyebrows; Cormorant Garamond for headlines; Jost for UI and body",
+      "Nearly sharp geometry (2px radius) and soft ambient shadows on lift",
+      "Orient-then-deepen: hub cards point into nested pages rather than absorbing them"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Door Rule",
+        "body": "On Sacred Circle (hub) and Shadow & Light, the interactive accent is gold-deep. Green and indigo appear only as nested-page --accent overrides — never mixed onto the hub as competing brand colors.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif Speaks Rule",
+        "body": "Human-facing headlines use Cormorant Garamond; Cinzel is reserved for tracked uppercase micro-display — never as long body copy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-Until-Invite Rule",
+        "body": "Surfaces rest flat with a hairline border. Shadow appears as a response to hover/focus invitation, not as default chrome.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the hub accent as gold-deep and send visitors into nested pages for detail and booking.",
+      "Do use cream cards with gold hairlines and 2px radius for offering, value, and how blocks.",
+      "Do honor page accent overrides only on Rainbow Roots (green) and Astrology (indigo).",
+      "Do preserve Felicia’s Shadow & Light voice and complementary-care legal stance on nested S&L — do not restyle that page as a different brand."
+    ],
+    "donts": [
+      "Don't invent Rainbow Roots hours/ages/location or Astrology practitioner/format details.",
+      "Don't fabricate testimonials, metrics, or clinical claims.",
+      "Don't replace parchment/gold with cool gray SaaS chrome or heavy glassmorphism.",
+      "Don't apply RR green or Astrology indigo accents on the Sacred Circle hub.",
+      "Don't touch the legacy shadownlight / shadow-light-reiki site from this system."
+    ]
+  }
+}

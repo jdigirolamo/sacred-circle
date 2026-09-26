@@ -37,7 +37,7 @@
   max-width:24ch;margin:0 auto .95rem;line-height:1.25;font-weight:500;
 }
 .hub-intro{
-  max-width:40rem;margin:0 auto 1.45rem;
+  max-width:40rem;margin:1.15rem auto 1.45rem;
   color:var(--muted);font-size:1.02rem;line-height:1.7;
 }
 .hub-actions{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin-top:1.15rem}
@@ -56,15 +56,15 @@
   list-style:none;padding:0;margin:1.6rem 0 0;
 }
 .value{
-  background:var(--cream);border:1px solid var(--line);border-radius:2px;
+  background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);
   padding:1.15rem 1rem 1.2rem;text-align:center;
 }
 .value strong{
   display:block;font-family:var(--display);
-  font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--gold-deep);font-weight:500;margin-bottom:.4rem;
+  font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--charcoal-warm);font-weight:500;margin-bottom:.4rem;
 }
-.value span{display:block;color:var(--muted);font-size:.88rem;line-height:1.55}
+.value span{display:block;color:var(--charcoal-warm);font-size:.9rem;line-height:1.55}
 
 .offerings{background:var(--parchment)}
 .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;list-style:none;padding:0;margin:0}
@@ -72,19 +72,22 @@
   display:flex;flex-direction:column;
   background:var(--cream);
   border:1px solid var(--line);
-  border-radius:2px;padding:1.4rem 1.25rem 1.45rem;
+  border-radius:var(--radius);padding:1.4rem 1.25rem 1.45rem;
   text-decoration:none;color:inherit;
   transition:border-color .2s ease,box-shadow .2s ease;
 }
-.card:hover{border-color:var(--gold-mid);box-shadow:var(--shadow);color:inherit}
+.card:hover,.card:focus-visible{
+  border-color:var(--gold-mid);box-shadow:var(--shadow);color:inherit;
+}
+.card:focus-visible{outline:2px solid var(--gold-mid);outline-offset:3px}
 .card-status{
   font-family:var(--display);
-  font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--gold-deep);margin:0 0 .45rem;
+  font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--charcoal-warm);margin:0 0 .45rem;
 }
 .card-status--soon{color:var(--olive)}
 .card h3{font-size:1.3rem;margin:0 0 .55rem;font-style:italic;font-weight:500}
-.card p{color:var(--muted);font-size:.9rem;flex:1;margin:0 0 1.05rem;line-height:1.6}
+.card p{color:var(--charcoal-warm);font-size:.9rem;flex:1;margin:0 0 1.05rem;line-height:1.6}
 .card-cta{font-size:.78rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep)}
 
 .how{
@@ -95,7 +98,7 @@
   list-style:none;padding:0;margin:0;counter-reset:how;
 }
 .how-item{
-  background:var(--cream);border:1px solid var(--line);border-radius:2px;
+  background:var(--cream);border:1px solid var(--line);border-radius:var(--radius);
   padding:1.2rem 1.1rem 1.25rem;
 }
 .how-item::before{
@@ -105,12 +108,13 @@
   color:var(--gold-mid);display:block;margin-bottom:.3rem;
 }
 .how-item h3{font-size:1.1rem;margin:0 0 .35rem;font-style:italic;font-weight:500}
-.how-item p{color:var(--muted);font-size:.9rem;line-height:1.55;margin:0}
+.how-item p{color:var(--charcoal-warm);font-size:.9rem;line-height:1.55;margin:0}
 
 .soft-cta{
   text-align:center;padding:clamp(2rem,4.5vw,2.7rem) 0;
   background:radial-gradient(ellipse 55% 80% at 50% 0%,rgba(201,162,75,.12),transparent 65%),var(--parchment);
 }
+.soft-cta .soft-title{font-style:italic;margin:0 0 .55rem}
 .soft-cta p{max-width:38rem;margin:0 auto 1rem;color:var(--muted);line-height:1.65}
 .soft-cta .soft-actions{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin-top:.2rem}
 
@@ -121,8 +125,6 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="grain" aria-hidden="true"></div>
-
 <header class="nav">
   <div class="nav-in">
     <a class="brand" href="index.html" aria-label="Sacred Circle, home" aria-current="page">
@@ -162,7 +164,7 @@
       <p class="hub-name">Sacred Circle</p>
       <h1 class="hub-line">A Calgary home for healing, kids who can be themselves, and discovering who you really are.</h1>
       <div class="ornament" aria-hidden="true"><i></i><b></b><i></i></div>
-      <p class="hub-intro" style="margin-top:1.15rem">
+      <p class="hub-intro">
         Sacred Circle is the umbrella — one shared ground for offerings that sit side by side, each with its own pace and purpose.
         Not a single clinic, and not a demand that you believe anything in particular. Just a warm Calgary home for care, belonging, and room to grow — in person and online where it fits.
       </p>
@@ -274,7 +276,7 @@
   <section class="soft-cta" id="book-soft">
     <div class="shell">
       <p class="eyebrow">When you’re ready</p>
-      <h2 style="font-style:italic;margin-bottom:.55rem">Reiki is live for booking</h2>
+      <h2 class="soft-title">Reiki is live for booking</h2>
       <p>
         Shadow &amp; Light is open for private sessions, extended work, and a free 15-minute consult —
         while Sacred Circle stays the home for every path under the umbrella.
