@@ -33,7 +33,7 @@ Then visit `http://localhost:8080/`.
 
 - Hub line on home (`index.html` — “A Calgary home for…”)
 - Privacy stubs on all pages
-- Soft contact mailto: `hello@sacredcircle.example` (Rainbow Roots & Astrology)
+- Rainbow Roots & Astrology: no public email yet (the `hello@sacredcircle.example` mailto was removed; do not invent an address)
 - Shadow & Light About: Training / Approach (`Felicia fills this`)
 - Rainbow Roots: ages, hours, location
 - Astrology: session formats, practitioner details
